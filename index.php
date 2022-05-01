@@ -5,6 +5,6 @@ mysqli_real_connect($conn, 'jothanshop-server.mysql.database.azure.com', 'cnncpc
 if (mysqli_connect_errno($conn)) {
 die('Failed to connect to MySQL: '.mysqli_connect_error());
 } else {
-  echo 'Success!';
+  echo 'Successfully!';
 }
 ?>
